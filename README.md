@@ -5,12 +5,10 @@ The main idea of this project is to make developing software as easy as possible
 This is where this project will come in handy. The idea is to configure all the dependencies on a Docker container so you don't have to install them locally on your system. With this method, you can work on many projects and save many resources. (cool right?) 
 
 ## Installation
-install docker on your system
+install docker on your system and run the docker engine in the background
 
 ## Usage
-to be able to work on your project, you need to start your docker with the following commands.
-
-build the docker image through this command.
+build the docker image through the following command.
 
 ```
 docker compose build
@@ -21,7 +19,7 @@ and then u can easily start your docker as follows
 docker compose up
 ```
 
-go to port http://0.0.0.0:4000/ then u can see your project live time 
+go to port http://0.0.0.0:4000/ ( http://localhost:4000/ on windows )then u can see your project live time 
 
 After making and saving changes to the files in the project directory, refresh your browser, to see the latest version of your project. 
 
